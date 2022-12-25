@@ -22,11 +22,11 @@ const Footer = () => {
             className="contact-flex"
           >
             <AiFillMail size={30} />
-            <p>classiceventsanddeliveries@gmail.com</p>
+            <p>Mail Us</p>
           </a>
           <a href="tel:+254726678092" className="contact-flex">
             <FaPhone size={30} />
-            <p>+254726678092</p>
+            <p>Call Us Today</p>
           </a>
           <CallBackForm />
         </div>
