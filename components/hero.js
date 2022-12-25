@@ -1,20 +1,26 @@
 import Image from "next/image";
 import React from "react";
+import HeroImg from "../public/assets/IMG-20221208-WA0028.jpg";
 
-const hero = () => {
+const Hero = () => {
   return (
     <div>
-      <section>
-        <div>
-          <Image src="" alt="hero image" />
+      <section className="hero-wrapper">
+        <div className="hero-image-wrapper">
+          <Image src={HeroImg} alt="hero image" priority />
         </div>
-        <article>
-          <h2>Welcome to Classic events</h2>
-          <p>Quality catering services for your intimate events!</p>
+        <article className="hero-text-wrapper">
+          <div>
+            <h2 className="grad-text">Welcome</h2>
+            <h2 className="grad-text">To Classic Events</h2>
+            <p>Quality catering services for your intimate occasions</p>
+          </div>
+
+          <button className="call-to-action">Contact Us</button>
         </article>
       </section>
     </div>
   );
 };
 
-export default hero;
+export default Hero;

@@ -10,9 +10,6 @@ header {
   z-index: 99999;
 }
 
-nav,
-.logo-section {
-}
 nav a {
   margin: 0 2rem;
   color: purple;

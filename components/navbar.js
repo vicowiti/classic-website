@@ -3,6 +3,7 @@ import Logo from "../public/assets/logo.jpg";
 import Image from "next/image";
 import NavLink from "./NavLink";
 import { useState } from "react";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 const NavBar = () => {
   const [isResponsive, setIsResponsive] = useState(false);
@@ -50,11 +51,11 @@ const NavBar = () => {
         />
 
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
-          X
+          <FaTimes />
         </button>
       </nav>
       <button onClick={showNavbar} className="nav-btn">
-        \\\
+        <FaBars />
       </button>
     </header>
   );
