@@ -7,52 +7,28 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
+import CallBackForm from "./CallBackForm";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
       <section>
         <div>
           <h3 className="footer-heading-major">Contact Us</h3>
         </div>
         <div>
-          <div className="contact-flex">
+          <a
+            href="mailto:classiceventsanddeliveries@gmail.com"
+            className="contact-flex"
+          >
             <AiFillMail size={30} />
-            <p>placeholder@gmail.com</p>
-          </div>
-          <div className="contact-flex">
+            <p>classiceventsanddeliveries@gmail.com</p>
+          </a>
+          <a href="tel:+254726678092" className="contact-flex">
             <FaPhone size={30} />
-            <p>+254712345678</p>
-          </div>
-          <form className="footer-form">
-            <h3 className="footer-heading-minor">Request a callback.</h3>
-            <div>
-              <input
-                className="footer-input"
-                type="text"
-                placeholder="Full Name"
-              />
-            </div>
-
-            <div>
-              <input
-                className="footer-input"
-                type="email"
-                placeholder="Email"
-              />
-            </div>
-            <div>
-              <input
-                className="footer-input"
-                type="number"
-                placeholder="Phone number"
-              />
-            </div>
-
-            <button className="footer-btn" type="submit">
-              Submit
-            </button>
-          </form>
+            <p>+254726678092</p>
+          </a>
+          <CallBackForm />
         </div>
       </section>
       <section className="socials-section">
@@ -60,13 +36,25 @@ const Footer = () => {
           <h3 className="footer-heading-major">Follow us on Social Media.</h3>
         </div>
         <div className="social-container">
-          <a href="" target="_blank">
+          <a
+            href="https://www.instagram.com/clasicevents"
+            rel="noreferrer"
+            target="_blank"
+          >
             <FaInstagram size={40} />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://twitter.com/ClasicEvents"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaTwitter size={40} />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://facebook.com/profile.php?id=100063182353295"
+            rel="noreferrer"
+            target="_blank"
+          >
             <FaFacebook size={40} />
           </a>
         </div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import NavLink from "./NavLink";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import Link from "next/link";
 
 const NavBar = () => {
   const [isResponsive, setIsResponsive] = useState(false);
@@ -14,32 +15,34 @@ const NavBar = () => {
   return (
     <header className="app">
       <section className="logo-section">
-        <Image
-          src={Logo}
-          //   width="50px"
-          //   height="50px"
-          // height="auto"
-          className="logo"
-          alt="logo"
-        />
+        <Link href="/">
+          <Image
+            src={Logo}
+            //   width="50px"
+            //   height="50px"
+            // height="auto"
+            className="logo"
+            alt="logo"
+          />
+        </Link>
       </section>
 
       <nav className={isResponsive ? "responsive-nav" : ""}>
         <NavLink
-          id="hero"
+          id="/"
           text="Home"
           isResponsive={isResponsive}
           setIsResponsive={setIsResponsive}
         />
-        <NavLink
+        {/* <NavLink
           id="shop"
           text="Shop"
           isResponsive={isResponsive}
           setIsResponsive={setIsResponsive}
-        />
+        /> */}
         <NavLink
-          id="about"
-          text="About"
+          id="services"
+          text="Services"
           isResponsive={isResponsive}
           setIsResponsive={setIsResponsive}
         />
