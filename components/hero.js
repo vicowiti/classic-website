@@ -16,7 +16,9 @@ const Hero = () => {
             <p>Culinary services for your intimate occasions</p>
           </div>
 
-          <button className="call-to-action">Contact Us</button>
+          <a href="#contact">
+            <button className="call-to-action">Contact Us</button>
+          </a>
         </article>
       </section>
     </div>
