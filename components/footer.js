@@ -55,7 +55,7 @@ const Footer = () => {
           </form>
         </div>
       </section>
-      <section>
+      <section className="socials-section">
         <div>
           <h3 className="footer-heading-major">Follow us on Social Media.</h3>
         </div>

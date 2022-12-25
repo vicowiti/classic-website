@@ -13,7 +13,7 @@ const Hero = () => {
           <div>
             <h2 className="grad-text">Welcome</h2>
             <h2 className="grad-text">To Classic Events</h2>
-            <p>Quality catering services for your intimate occasions</p>
+            <p>Culinary services for your intimate occasions</p>
           </div>
 
           <button className="call-to-action">Contact Us</button>

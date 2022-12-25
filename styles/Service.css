@@ -1,0 +1,46 @@
+.service-card {
+  width: 100%;
+  border-radius: 30px;
+  background: #cac991;
+  box-shadow: 20px 20px 4px #636247 -20px -20px 52px #ffffdb;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.s-img {
+  width: 200px;
+  height: 200px;
+}
+
+.article-desc {
+  margin-top: 20px;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+  .service-card {
+    width: 80vw;
+    border-radius: 30px;
+    background: #636247;
+    box-shadow: 20px 20px 4px #636247 -20px -20px 52px #ffffdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .article-desc {
+    display: none;
+  }
+
+  .article-heading {
+    margin-bottom: 0.5rem;
+    color: aliceblue;
+  }
+}
