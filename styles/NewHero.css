@@ -1,6 +1,6 @@
 .new-hero-container {
   width: 100vw;
-  height: 50vh;
+  height: 69vh;
 }
 
 .new-hero-image {
@@ -24,9 +24,9 @@
 }
 
 .new-hero-text > a > button {
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  font-weight: 900;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 800;
   border-radius: 2rem;
   border: none;
   background: gold;
