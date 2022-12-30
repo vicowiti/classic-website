@@ -5,15 +5,34 @@ import NavLink from "./NavLink";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const NavBar = () => {
   const [isResponsive, setIsResponsive] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  console.log(isScrolled);
+
+  useEffect(() => {
+    function changePosition() {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+
+    window.addEventListener("scroll", changePosition);
+  }, [isScrolled]);
 
   const showNavbar = () => {
     setIsResponsive(!isResponsive);
   };
   return (
-    <header className="app">
+    <header
+      className="app"
+      style={{ position: isScrolled ? "relative" : "fixed" }}
+    >
       <section className="logo-section">
         <Link href="/">
           <Image
