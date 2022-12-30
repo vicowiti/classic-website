@@ -1,8 +1,9 @@
 .service-card {
+  padding: 1rem;
   width: 100%;
-  border-radius: 30px;
-  background: #cac991;
-  box-shadow: 20px 20px 4px #636247 -20px -20px 52px #ffffdb;
+  border-radius: 33px;
+  background: #fff;
+  box-shadow: 15px 15px 30px #dbdbdb, -15px -15px 30px #ffffff;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -24,9 +25,7 @@
   .service-card {
     width: 80vw;
     border-radius: 30px;
-    background: #636247;
-    box-shadow: 20px 20px 4px #636247 -20px -20px 52px #ffffdb;
-    display: flex;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -41,6 +40,6 @@
 
   .article-heading {
     margin-bottom: 0.5rem;
-    color: aliceblue;
+    color: #161616;
   }
 }

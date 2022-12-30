@@ -22,8 +22,8 @@ export default function Home() {
 
       <Navbar />
       <NewHero />
-      {/* <Hero />
-      <Services /> */}
+      {/* <Hero />*/}
+      <Services />
       <Footer />
 
       <main></main>
