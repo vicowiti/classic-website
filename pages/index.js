@@ -7,6 +7,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Services from "../components/services";
 import Footer from "../components/footer";
+import NewHero from "../components/newHero";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <Hero />
-      <Services />
+      <NewHero />
+      {/* <Hero />
+      <Services /> */}
       <Footer />
 
       <main></main>

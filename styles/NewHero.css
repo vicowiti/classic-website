@@ -1,0 +1,45 @@
+.new-hero-container {
+  width: 100vw;
+  height: 80vh;
+}
+
+.new-hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.new-hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.new-hero-text > p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.new-hero-text > a > button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 2rem;
+  border: none;
+  background: gold;
+  color: green;
+  cursor: pointer;
+}
+
+.new-hero-text > button:hover {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 2rem;
+  border: 2px green solid;
+  background: gold;
+  color: green;
+}

@@ -91,7 +91,7 @@ body {
 
 body {
   color: rbg(--foreground-rgb);
-  background: #cac991;
+  /* background: #cac991; */
   /* margin-left: 30px;
   margin-right: 30px; */
   font-family: "Montserrat", sans-serif;
