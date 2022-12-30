@@ -28,7 +28,7 @@ const Footer = () => {
             <FaPhone size={30} />
             <p>Call Us Today</p>
           </a>
-          <CallBackForm />
+          {/* <CallBackForm /> */}
         </div>
       </section>
       <section className="socials-section">

@@ -4,7 +4,7 @@ import HeroImg from "../public/assets/delivery.webp";
 
 const NewHero = () => {
   return (
-    <div>
+    <div className="wrapper-new-hero">
       <section className="new-hero-container">
         <Image src={HeroImg} alt="hero image" className="new-hero-image" />
       </section>

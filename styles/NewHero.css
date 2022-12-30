@@ -1,3 +1,16 @@
+.wrapper-new-hero {
+  position: relative;
+  display: flex;
+}
+
+.wrapper-new-hero > section {
+  flex: 1;
+}
+.new-hero-container {
+  width: 100vw;
+  height: 80vh;
+}
+
 .new-hero-container {
   width: 100vw;
   height: 69vh;
@@ -42,4 +55,55 @@
   border: 2px green solid;
   background: gold;
   color: green;
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper-new-hero {
+    display: block;
+  }
+  .wrapper-new-hero > .new-hero-container {
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .new-hero-container > .new-hero-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .new-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .new-hero-text > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .new-hero-text > a > button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+    border-radius: 2rem;
+    border: none;
+    background: gold;
+    color: green;
+    cursor: pointer;
+  }
+
+  .new-hero-text > button:hover {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+    border-radius: 2rem;
+    border: 2px green solid;
+    background: gold;
+    color: green;
+  }
 }
