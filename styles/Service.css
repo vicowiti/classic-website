@@ -1,6 +1,6 @@
 .service-card {
   padding: 1rem;
-  width: 100%;
+  width: 60%;
   border-radius: 33px;
   background: #fff;
   box-shadow: 15px 15px 30px #dbdbdb, -15px -15px 30px #ffffff;
@@ -9,6 +9,8 @@
   gap: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
 
 .s-img {
@@ -21,7 +23,13 @@
   max-width: 70%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
+  .service-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
   .service-card {
     width: 80vw;
     border-radius: 30px;

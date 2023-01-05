@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/assets/logo.jpg" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <NewHero />
       {/* <Hero />*/}
       <Services />

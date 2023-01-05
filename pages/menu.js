@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import HeroImg from "../public/assets/delivery.webp";
+import HeroImg from "../public/assets/IMG-20221208-WA0017.jpg";
 
-const NewHero = () => {
+const Menu = () => {
   return (
     <div className="wrapper-new-hero">
       <section className="new-hero-container">
@@ -13,12 +14,12 @@ const NewHero = () => {
         {/* <a href="https://wa.me/+254726678092">
           <button>Order Now</button>
         </a> */}
-        <a href="/menu">
+        <Link href="/menu">
           <button>See Menu</button>
-        </a>
+        </Link>
       </section>
     </div>
   );
 };
 
-export default NewHero;
+export default Menu;
