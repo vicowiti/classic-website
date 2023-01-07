@@ -1,0 +1,15 @@
+.menu-banner {
+  width: 100vw;
+  height: 25vh;
+  background-color: brown;
+  position: relative;
+}
+
+.menu-banner-text {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+}

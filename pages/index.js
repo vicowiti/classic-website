@@ -24,7 +24,7 @@ export default function Home() {
       <NewHero />
       {/* <Hero />*/}
       <Services />
-      <Footer />
+      {/* <Footer /> */}
 
       <main></main>
     </>
