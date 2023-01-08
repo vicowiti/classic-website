@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import HeroImg from "../public/assets/delivery.webp";
 
@@ -13,9 +14,9 @@ const NewHero = () => {
         {/* <a href="https://wa.me/+254726678092">
           <button>Order Now</button>
         </a> */}
-        <a href="/menu">
+        <Link href="/menu">
           <button>See Menu</button>
-        </a>
+        </Link>
       </section>
     </div>
   );
