@@ -11,9 +11,7 @@ const NewHero = () => {
       </section>
       <section className="new-hero-text">
         <p>Your delicious meals delivered fast.</p>
-        {/* <a href="https://wa.me/+254726678092">
-          <button>Order Now</button>
-        </a> */}
+
         <Link href="/menu">
           <button>See Menu</button>
         </Link>

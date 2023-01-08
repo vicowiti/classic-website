@@ -98,6 +98,14 @@ const Menu = () => {
           </div>
         </div>
       </article>
+      <div className="to-action">
+        <a href="https://wa.me/+254726678092">
+          <button className="to-action-btn1">Order Now</button>
+        </a>
+        <a href="../public/assets/menu.pdf" download>
+          <button className="to-action-btn2">PDF Menu</button>
+        </a>
+      </div>
     </section>
   );
 };
