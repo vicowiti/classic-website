@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaPhone,
-  FaMailBulk,
-} from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTwitter, FaPhone } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
-import CallBackForm from "./CallBackForm";
 
 const Footer = () => {
   return (
@@ -28,7 +21,6 @@ const Footer = () => {
             <FaPhone size={30} />
             <p>Call Us Today</p>
           </a>
-          {/* <CallBackForm /> */}
         </div>
       </section>
       <section className="socials-section">

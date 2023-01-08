@@ -3,10 +3,9 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Services from "../components/services";
-import Footer from "../components/footer";
+
 import NewHero from "../components/newHero";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +19,9 @@ export default function Home() {
         <link rel="icon" href="/assets/logo.jpg" />
       </Head>
 
-      {/* <Navbar /> */}
       <NewHero />
-      {/* <Hero />*/}
-      <Services />
-      {/* <Footer /> */}
 
-      <main></main>
+      <Services />
     </>
   );
 }
