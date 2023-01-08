@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import HeroImg from "../public/assets/IMG-20221208-WA0017.jpg";
-
+import MyMenu from "../public/assets/menu.pdf";
 const Menu = () => {
   return (
     <section className="menu-section">
@@ -102,7 +102,7 @@ const Menu = () => {
         <a href="https://wa.me/+254726678092">
           <button className="to-action-btn1">Order Now</button>
         </a>
-        <a href="../public/assets/menu.pdf" download>
+        <a href={MyMenu} download>
           <button className="to-action-btn2">PDF Menu</button>
         </a>
       </div>
